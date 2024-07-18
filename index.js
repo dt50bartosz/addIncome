@@ -57,3 +57,30 @@ $('input[name="addComment"]').change(function() {
 });
 
 
+$("#balance").click(function(event) {
+   
+    event.preventDefault(); 
+  
+    window.location.href = "https://dt50bartosz.github.io/balance/";
+  
+});
+
+
+
+$("#main-menu").click(function(event) {
+   
+    event.preventDefault(); 
+  
+    window.location.href = "https://dt50bartosz.github.io/main-login/";
+  
+});
+
+
+$("#add-expense").click(function(event) {
+   
+    event.preventDefault(); 
+  
+    window.location.href = "https://dt50bartosz.github.io/addExpense/";
+  
+});
+
